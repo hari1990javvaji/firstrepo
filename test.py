@@ -13,7 +13,7 @@ payload = dict(key1='value1', key2='value2')
 with open('test.json', 'w') as fw:
     json.dump(payload,fw,indent=True)
 '''
-with open('test.json') as fr:
+with open('./test.json') as fr:
     conf = json.load(fr)
 
 print(conf['key1'])
