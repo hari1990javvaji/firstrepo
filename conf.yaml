@@ -1,0 +1,16 @@
+BDPInstall:
+ - edge01:   
+    edge_hostname: "abc"
+    BDP_custom_user: "cisa"
+ - edge02:
+    edge_hostname: "fsafd"
+    BDP_custom_user: "saa"
+ - edge03:
+    edge_hostname: "fefdsf"
+    BDP_custom_user: "frrrr"
+    
+    
+    
+  
+
+  
